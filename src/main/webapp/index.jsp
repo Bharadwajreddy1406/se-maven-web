@@ -1,5 +1,16 @@
 <html>
+<head>
+<style>
+            .radial-text-gradient {
+                background: radial-gradient(circle, red, yellow);
+                -webkit-background-clip: text;
+                background-clip: text;
+                color: transparent;
+            }
+</style>
+</head>
 <body>
 <h2>Hello World!</h2>
+<h1 class="radial-text-gradient">Radial Text Gradient</h1>
 </body>
 </html>
